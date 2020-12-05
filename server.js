@@ -9,7 +9,7 @@
 
 const pub = require('earthstar-pub');
 
-const port = 8888;
+const port = process.env.PORT || 5000;
 pub.serve({
     port: port,
     readonly: false,  // if true, don't accept any new data from users to any workspace
