@@ -1,7 +1,7 @@
 {
-  "name": "hello-express",
+  "name": "deploy-earthstar-pub",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "Deployable wrapper for standing up a new earthstar pub.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -13,7 +13,7 @@
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://github.com/judytuna/deploy-earthstar-pub"
   },
   "license": "MIT",
   "keywords": [
